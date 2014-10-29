@@ -1,0 +1,29 @@
+Error, "tests/check02/inc_dec.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check02/inc_dec.rc": 
+  Operand to -- is not a modifiable L-value.
+Error, "tests/check02/inc_dec.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check02/inc_dec.rc": 
+  Operand to -- is not a modifiable L-value.
+Error, "tests/check02/inc_dec.rc": 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check02/inc_dec.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check02/inc_dec.rc": 
+  Operand to -- is not a modifiable L-value.
+Error, "tests/check02/inc_dec.rc": 
+  Incompatible type bool to operator --, equivalent to int, float, or pointer expected.
+Error, "tests/check02/inc_dec.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check02/inc_dec.rc": 
+  Operand to -- is not a modifiable L-value.
+Error, "tests/check02/inc_dec.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check02/inc_dec.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check02/inc_dec.rc": 
+  Operand to -- is not a modifiable L-value.
+Error, "tests/check02/inc_dec.rc": 
+  Operand to -- is not a modifiable L-value.
+Compile: failure.

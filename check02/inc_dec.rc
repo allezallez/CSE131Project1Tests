@@ -7,8 +7,30 @@ function : void test() {
     float moo;
     bool loo;
 
+    //all ok
+    zoo++;
+    zoo--;
+    ++zoo;
+    --zoo;
+    moo++;
+    moo--;
+    ++moo;
+    --moo;
+    tar++;
+    tar--;
+    ++tar;
+    --tar;
+    jar++;
+    jar--;
+    ++jar;
+    --jar;
+
+    5++; //error, can't inc r-val
+    5--; //error, can't dec r-val
+    ++5; //error, can't inc r-val
+    --5; //error, can't dec r-val
+    
     ::tar++ = loo++ + moo++; //error, can't inc bool
-    zoo-- = moo++ + ++moo; //error, left hand is r-val
     moo--++--++ = zoo++; //error, can't inc r-val
     --++::jar = zoo; //error, can't dec r-val
 
@@ -16,9 +38,6 @@ function : void test() {
     tar = ++--++--zoo; //error, can't inc r-val
 
     ::jar = ++::jar + ::tar--;
-
-    ::tar = ::tar++ + --moo; //error, can't assign float to int
-    loo = zoo++ - moo--; //error, can't assign float to bool
 
     ++7--; //error, can't dec r-val;
     --(3434 + 4324 - 324)++--; //error, can't inc r-val
