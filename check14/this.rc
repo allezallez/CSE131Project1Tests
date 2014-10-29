@@ -34,7 +34,6 @@ structdef FOO {
         this.v = ::farm; //error, float not assignable to int
         this.c = no; //error, float not assignable to int
 
-        v = 1; //TODO can we assign to formal params not pass by ref
         bb = b; //error, undeclared id bb
         farm = j;
         ::farm = j;

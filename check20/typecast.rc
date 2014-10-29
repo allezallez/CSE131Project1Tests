@@ -24,7 +24,6 @@ function : void test() {
 
     (int) tod; //error, not supported
     tod = (funcptr : int ()) tiod; //error, not supported
-    (int) tod = (funcptr : int ()) tiod; //error, TODO what errors to print here?
 
     t = (int) (float) (float) (int) g;
     (bool) (float) (int) t;
@@ -33,6 +32,5 @@ function : void test() {
     jim[(int)nullptr];
 
     //constant conversion
-    
 
 }
