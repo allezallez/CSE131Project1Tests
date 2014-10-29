@@ -40,3 +40,7 @@ function : float & nio() {
         return 1.1; //error, not mod l
     }
 } //error, no return found
+
+function : float & ghi() {
+    return 1; //error, int not equiv to float
+}

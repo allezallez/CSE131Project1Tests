@@ -35,7 +35,7 @@ function : void num2(float x) {
     return;
 }
 
-function : void main() {    
+function : void main() {
     int x = num1(1);
     x = num1(1.0); //fail with assign from void to int
     float f = num1(1.0);
