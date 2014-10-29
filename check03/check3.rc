@@ -1,0 +1,13 @@
+function : void foo() {}
+
+typedef int HELLO;
+
+function : void main() {
+    int x = 5;
+    5 = 6;
+    int x = 6;
+    foo = "bar";
+    const int y = 16;
+    y = 15;
+    int z = x = 17;
+}

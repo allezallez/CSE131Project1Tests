@@ -1,0 +1,36 @@
+function : int toomany(int a, float b, bool c) {
+  return 2;
+  int x = 2;
+  return 2.1;
+}
+int a = toomany(4, 3.14); // fail 5
+int b = toomany(1); //fail 6
+int c = toomany(); //fail 7
+int d = toomany(4.5, 4.5, true); // fail 8
+int e = toomany(3, 4.5, true, false); // fail 9
+int f = toomany(3, 4.5, true);
+int g = toomany(true, false, 3); // 3 errors
+function : int foo(float x, bool y){
+  return 1;
+}
+function : int& fool(float x, bool y){
+  return 1;
+}
+function : void bar(int x) {
+  if (false) {
+    return false; 
+  }
+  else {
+    return 3;
+  }
+  return;
+}
+function : void baz(int &x) {
+  return 1;
+}
+
+int y = foo(5.5,true);
+
+int z = 5 + foo(5.5,false);
+
+

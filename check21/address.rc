@@ -1,0 +1,20 @@
+function : void test(bool & hi) {
+    &5; //error, non addressable
+    &asdf;
+    //&nullptr; //error, non addressable TODO nullpointer
+    &false; //error, non addressable
+    &66.6; //error, non addressable
+    const int z = 3;
+    &z;
+    int y;
+    &y++; //error, non addressable
+    &++y; //error, non addressable
+    &(5+1); //error, non addressable
+    &hi;
+    &(float)y; //error, non addressable
+
+    int* yu = &y;
+    float* si = &y; //error, no int* not assignable to float* TODO, correct?
+    //TODO  can we assign things to args not passed by ref
+    &test; //error, non addressable TODO is the correct error printed out?
+}

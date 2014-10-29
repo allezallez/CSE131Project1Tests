@@ -1,0 +1,80 @@
+function : int foo1(float x, bool y){
+}
+
+function : void foo2(float x, bool y){
+}
+
+function : int& foo3(int y) {
+    const int x = 3;
+    return x; //error: not a modifiable L-value
+}
+
+function : int& foo4(int x) {
+    return 3; //error?!?
+}
+
+function : float ff5(int x) {
+    return x; 
+}
+
+function : int foo6(float f) {
+    return f; //error, not assignable to int
+}
+
+function : int missing() {
+    if (true) {
+        return 1;
+    }
+    int[5] arr;
+    foreach(int x : arr) {
+        return 5;
+    }
+    while (true) {
+        return -5;
+    }
+} //missing global return type error
+
+function : bool block() {
+    int x = 3;
+    {
+        {
+            return true;
+        }
+    }
+}
+
+function : float fun() {
+    if (true) {
+        return 1.0;
+    }
+    int[1] arr;
+    foreach(int x : arr) {
+        return 2.0;
+    }
+    while(true) {
+        return 3.0;
+    }
+
+    {
+        {
+            {
+                if (true) {
+                    return 6;
+                }
+
+                while(false) {
+                    return true; //bad return
+                }
+            }
+            foreach(int x : arr) {
+                return false; //bad return
+            }
+        }
+        while(true) {
+            return +3.1415926;
+        }
+    }
+    foreach(int x : arr) {
+        return -1.0;
+    }
+} // still fail with no return

@@ -1,0 +1,7 @@
+Error, "tests/check00/undeclared_global.rc": 
+  Identifier x2 is undeclared in the global scope.
+Error, "tests/check00/undeclared_global.rc": 
+  Identifier y2 is undeclared in the global scope.
+Error, "tests/check00/undeclared_global.rc": 
+  Identifier z2 is undeclared in the global scope.
+Compile: failure.

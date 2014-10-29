@@ -1,0 +1,193 @@
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type int to binary operator ||, equivalent to bool expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator &, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator |, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type bool to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Error, "tests/check01/bitwise.rc": 
+  Incompatible type float to binary operator ^, equivalent to int expected.
+Compile: failure.

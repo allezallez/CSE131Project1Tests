@@ -1,0 +1,15 @@
+Error, "tests/check00/detect_undeclared_global_identifiers.rc": 
+  Value of type bool not assignable to variable of type int.
+Error, "tests/check00/detect_undeclared_global_identifiers.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check00/detect_undeclared_global_identifiers.rc": 
+  Value of type int not assignable to variable of type bool.
+Error, "tests/check00/detect_undeclared_global_identifiers.rc": 
+  Identifier far is undeclared in the global scope.
+Error, "tests/check00/detect_undeclared_global_identifiers.rc": 
+  Identifier asdf is undeclared in the global scope.
+Error, "tests/check00/detect_undeclared_global_identifiers.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check00/detect_undeclared_global_identifiers.rc": 
+  Value of type float not assignable to variable of type int.
+Compile: failure.

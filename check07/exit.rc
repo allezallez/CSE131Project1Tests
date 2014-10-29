@@ -1,0 +1,13 @@
+function : void test() {
+    int tar;
+    float far;
+    bool bar;
+
+    exit(1);
+    exit(6*9-6+7);
+    exit(tar);
+    exit(far); //error, float not assignable to int
+    exit(bar); //error, bool not assignable to int
+    exit(far + tar); //error, float not assignable to int
+    exit(1/0); //error, arithmetic
+}

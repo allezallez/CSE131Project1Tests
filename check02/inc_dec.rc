@@ -1,0 +1,29 @@
+int tar;
+bool far;
+float jar;
+
+function : void test() {
+    int zoo;
+    float moo;
+    bool loo;
+
+    ::tar++ = loo++ + moo++; //error, can't inc bool
+    zoo-- = moo++ + ++moo; //error, left hand is r-val
+    moo--++--++ = zoo++; //error, can't inc r-val
+    --++::jar = zoo; //error, can't dec r-val
+
+    ++++----loo; //error, can't dec bool
+    tar = ++--++--zoo; //error, can't inc r-val
+
+    ::jar = ++::jar + ::tar--;
+
+    ::tar = ::tar++ + --moo; //error, can't assign float to int
+    loo = zoo++ - moo--; //error, can't assign float to bool
+
+    ++7--; //error, can't dec r-val;
+    --(3434 + 4324 - 324)++--; //error, can't inc r-val
+
+    (3455435++)----; //error, can't inc r-val
+    ++(444444444--)--; //error, can't dec r-val
+    (++::jar)--; //error, can't dec r-val
+}
