@@ -1,0 +1,97 @@
+Error, "tests/check03/arithmetic.rc": 
+  Value of type int not assignable to variable of type bool.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type bool.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type bool.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator +, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type int not assignable to variable of type bool.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type bool.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type bool.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator -, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type int not assignable to variable of type bool.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type bool.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type bool.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator *, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type int not assignable to variable of type bool.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type bool.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/arithmetic.rc": 
+  Value of type float not assignable to variable of type bool.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator /, numeric expected.
+Error, "tests/check03/arithmetic.rc": 
+  Incompatible type bool to binary operator /, numeric expected.
+Compile: failure.

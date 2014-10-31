@@ -60,4 +60,9 @@ function : void test() {
     figge(lars);
     figge(tar); //error, function name not mod-l
     figge1(tar);
+
+    tars++; //error, incompatible type
+    --tars; //error, incompatible type
+    tar--; //error, incompatible type
+    ++tars; //error, incompatible type
 }

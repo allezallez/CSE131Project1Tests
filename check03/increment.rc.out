@@ -1,0 +1,45 @@
+Error, "tests/check03/increment.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "tests/check03/increment.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "tests/check03/increment.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check03/increment.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check03/increment.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/increment.rc": 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check03/increment.rc": 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check03/increment.rc": 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check03/increment.rc": 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check03/increment.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/increment.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "tests/check03/increment.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check03/increment.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check03/increment.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "tests/check03/increment.rc": 
+  Value of type float not assignable to variable of type int.
+Error, "tests/check03/increment.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check03/increment.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check03/increment.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check03/increment.rc": 
+  Value of type float not assignable to variable of type bool.
+Error, "tests/check03/increment.rc": 
+  Incompatible type bool to operator ++, equivalent to int, float, or pointer expected.
+Error, "tests/check03/increment.rc": 
+  Operand to ++ is not a modifiable L-value.
+Error, "tests/check03/increment.rc": 
+  Operand to ++ is not a modifiable L-value.
+Compile: failure.

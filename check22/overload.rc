@@ -39,7 +39,7 @@ function : bool* fiz(funcptr : int () part, bool* pim) {
 }
 
 typedef bool* FA;
-function : FA fiz(funcptr : void () pa, bool* pal) { //TODO we don't say redeclared id
+function : FA fiz(funcptr : void () pa, bool* pa) { //TODO we don't say redeclared id
     return pal;
 }
 

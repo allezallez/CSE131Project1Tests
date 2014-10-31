@@ -6,6 +6,7 @@ function : void test() {
 
     nullptr = nullptr; //error, left hand not mod L
     int***** f = nullptr;
+    int***** ty;
     bool* fa = nullptr;
     float** fs = nullptr;
     TY* fas = nullptr;
@@ -57,5 +58,8 @@ function : void test() {
     nullptr == hi;
     1 == nullptr; //error
     nullptr == true; //error
+
+    f != f;
+    f == ty;
 
 }

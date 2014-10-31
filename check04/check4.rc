@@ -1,16 +1,17 @@
 function : void foo(){
-    if(24324) { //PASS
-        int x = 4; //PASS
+    if(24324) { //FAIL
+        int x = 4;
     }
     while (true) {} //PASS
-
+    
     while (false) {} //PASS
 
-    while ("astronaut") {} //FAIL
+    while (-0x00) {} //FAIL
+    while (1) {} //FAIL
+    while (0) {} //FAIL
 
     while (123) {} //FAIL
 
-    if ("string") {} //FAIL
     if (true) {} //PASS
     if (false) {} //PASS
 

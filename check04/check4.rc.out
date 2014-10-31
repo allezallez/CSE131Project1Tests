@@ -1,0 +1,15 @@
+Error, "tests/check04/check4.rc": 
+  bool required for conditional test, int found.
+Error, "tests/check04/check4.rc": 
+  bool required for conditional test, int found.
+Error, "tests/check04/check4.rc": 
+  bool required for conditional test, int found.
+Error, "tests/check04/check4.rc": 
+  bool required for conditional test, int found.
+Error, "tests/check04/check4.rc": 
+  bool required for conditional test, int found.
+Error, "tests/check04/check4.rc": 
+  bool required for conditional test, float found.
+Error, "tests/check04/check4.rc": 
+  bool required for conditional test, float found.
+Compile: failure.
