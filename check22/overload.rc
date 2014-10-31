@@ -3,7 +3,7 @@ function : int & foo(int x) {
 }
 
 function : int & foo(int x) { //error, duplicate defn
-    return x; //TODO what should this print?
+    return 1;
 }
 
 function : int foo(int x) { //error, duplicate defn
@@ -39,9 +39,8 @@ function : bool* fiz(funcptr : int () part, bool* pim) {
 }
 
 typedef bool* FA;
-function : FA fiz(funcptr : void () pa, bool* pa) { //TODO we don't say redeclared id
-    return pal;
-}
+function : FA fiz(funcptr : void () pa, bool* pa) { //error, redeclared id
+} //error, no return
 
 function : float fiz(funcptr : int() pf, FA f) { //error, duplicate defn
     return 1.1;

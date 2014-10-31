@@ -23,7 +23,7 @@ function : void figge (funcptr : void () & jum) {
     jum = lars;
 }
 
-function : int & fig(bool* & b, float** f, int ga) {}
+function : int & fig(bool* & b, float** f, int ga) { int x; return x;}
 funcptr : int & (bool* & b, float** f, int ga) snar;
 
 funcptr : int & (bool & b) bad;
@@ -32,7 +32,13 @@ funcptr : int & (bool* & b, float** f, int & ga) badder;
 
 function : void te1(funcptr : int & (bool* & b, float** f, int ga) jj) {}
 
+function : void te23(funcptr : int & (bool* & b, float** b) jj) {} //error, redeclared id
+function : void tefgd(funcptr : int & (bool* & b, float** b) jj, bool jj) {} //error, redeclared id twice
+funcptr : void (int a, bool a) heral; //error, redeclared id
+
 function : void test() {
+    funcptr : void (int a, bool a) heral; //error, redeclared id
+
     foo(foo); //error
     foo(tar);
     foo(lars);
