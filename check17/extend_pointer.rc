@@ -44,7 +44,9 @@ function : void test() {
     ++ast;
     ast--;
     --ast;
-    sas++; //error, incompatible
+
+    TY sas2;
+    sas2++; //error, incompatible
 
     ++f++; //error, not mod L
     ----fas; //error, not mod L

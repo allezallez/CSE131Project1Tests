@@ -21,10 +21,6 @@ typedef T_FOO T_T_FOO;
 typedef bool********** T_BOO;
 typedef T_BOO T_T_BOO;
 
-typedef funcptr : bool** & (bool & sdf) FP;
-
-funcptr : int**** (int x, float b, bool & z) fp1;
-
 int******[5] ffa;
 typedef float[10] FL;
 FL*** ffb;
@@ -33,8 +29,6 @@ structdef S1 {
     int too;
     float foo;
     bool boo;
-    funcptr : int**** (int x, float b, bool & z) fp2;
-    FP tt;
 
     function : void ted(float v, bool* f) {}
     function : int trd(int**** vv) {
@@ -46,7 +40,6 @@ structdef S1 {
 typedef S1 S2;
 
 structdef S3 {
-    FP[10] far;
     S1[10] lar;
     S2*[5] jar;
     float***** star;
@@ -92,22 +85,19 @@ function : void test() {
     t[sizeof(T_BOO)]; //error, 4
     t[sizeof(T_T_BOO)]; //error, 4
 
-    t[sizeof(FP)]; //error, 4
-    t[sizeof(fp1)]; //error, 4
     t[sizeof(ffa)]; //error, 20
     t[sizeof(FL)]; //error, 40
     t[sizeof(ffb)]; //error, 4
 
-    t[sizeof(S1)]; //error, 20
-    t[sizeof(S2)]; //error, 20
-    t[sizeof(S3)]; //error, 264
+    t[sizeof(S1)]; //error, 12
+    t[sizeof(S2)]; //error, 12
+    t[sizeof(S3)]; //error, 144
 
     S1 s1;
     t[sizeof(s1.too)]; //error, 4
     t[sizeof(s1.foo)]; //error, 4
     t[sizeof(s1.boo)]; //error, 4
-    t[sizeof(s1.fp2)]; //error, 4
-    t[sizeof(s1.tt)]; //error, 4
+
     t[sizeof(s1.ted)]; //error, not addressable
     t[sizeof(s1.trd)]; //error, not addressable
 
@@ -115,14 +105,13 @@ function : void test() {
     t[sizeof(s2.too)]; //error, 4
     t[sizeof(s2.foo)]; //error, 4
     t[sizeof(s2.boo)]; //error, 4
-    t[sizeof(s2.fp2)]; //error, 4
-    t[sizeof(s2.tt)]; //error, 4
+
     t[sizeof(s2.ted)]; //error, not addressable
     t[sizeof(s2.trd)]; //error, not addressable
 
     S3 s3;
-    t[sizeof(s3.far)]; //error, 40
-    t[sizeof(s3.lar)]; //error, 200
+
+    t[sizeof(s3.lar)]; //error, 120
     t[sizeof(s3.jar)]; //error, 20
     t[sizeof(s3.star)]; //error, 4
 
@@ -135,8 +124,7 @@ function : void test() {
     t[sizeof(s1p->too)]; //error, 4
     t[sizeof(s1p->foo)]; //error, 4
     t[sizeof(s1p->boo)]; //error, 4
-    t[sizeof(s1p->fp2)]; //error, 4
-    t[sizeof(s1p->tt)]; //error, 4
+
     t[sizeof(s1p->ted)]; //error, not addressable
     t[sizeof(s1p->trd)]; //error, not addressable
 
@@ -144,21 +132,20 @@ function : void test() {
     t[sizeof(s2p->too)]; //error, 4
     t[sizeof(s2p->foo)]; //error, 4
     t[sizeof(s2p->boo)]; //error, 4
-    t[sizeof(s2p->fp2)]; //error, 4
-    t[sizeof(s2p->tt)]; //error, 4
+
     t[sizeof(s2p->ted)]; //error, not addressable
     t[sizeof(s2p->trd)]; //error, not addressable
 
     S3* s3p;
-    t[sizeof(s3p->far)]; //error, 40
-    t[sizeof(s3p->lar)]; //error, 200
+
+    t[sizeof(s3p->lar)]; //error, 120
     t[sizeof(s3p->jar)]; //error, 20
     t[sizeof(s3p->star)]; //error, 4
 
     S4 s4;
-    t[sizeof(s4.s1)]; //error, 20
-    t[sizeof(s4.s2)]; //error, 20
-    t[sizeof(s4.s3)]; //error, 264
+    t[sizeof(s4.s1)]; //error, 12
+    t[sizeof(s4.s2)]; //error, 12
+    t[sizeof(s4.s3)]; //error, 144
     t[sizeof(s4.s4)]; //error, 4
     t[sizeof(s4.s5)]; //error, 40
     t[sizeof(s4.s6)]; //error, field not found
@@ -174,6 +161,4 @@ function : void test() {
 
     t[sizeof(test)]; //error, not addressable
     t[sizeof(tttt)]; //error, not addressable
-    t[sizeof(funcptr : int*** & (float & f, bool* & b, int*** i))]; //error, 4
-    t[sizeof(funcptr : int& (funcptr : void () a1, funcptr : float & (int aa) a2))]; //error, 4
 }

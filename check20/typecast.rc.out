@@ -12,8 +12,6 @@ Error, "tests/check20/typecast.rc", line 17:
   Left-hand operand is not assignable (not a modifiable L-value).
 Error, "tests/check20/typecast.rc", line 18: 
   Left-hand operand is not assignable (not a modifiable L-value).
-Error, "tests/check20/typecast.rc", line 23: 
-  Index value of 5 is outside legal range [0,1).
 Error, "tests/check20/typecast.rc", line 25: 
   Invalid type cast. Type funcptr : int () to type int is not supported.
 Error, "tests/check20/typecast.rc", line 26: 

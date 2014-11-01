@@ -33,10 +33,17 @@ funcptr : int & (bool* & b, float** f, int & ga) badder;
 function : void te1(funcptr : int & (bool* & b, float** f, int ga) jj) {}
 
 function : void te23(funcptr : int & (bool* & a, float** b) jj) {}
-function : void tefgd(funcptr : int & (bool* & c, float** b) jj, bool jj) {}
+function : void tefgd(funcptr : int & (bool* & c, float** b) jj, bool jj) {} //error, redeclared id jj
 funcptr : void (int a, bool b) heral;
 
+typedef funcptr : void (int & a, bool* ba) PT;
+funcptr : PT (float**& fa) megapointer;
+funcptr : PT* (float**& fa) megapointer1;
+funcptr : PT & (float**& fa) megapointer2;
+
 function : void test() {
+    funcptr : PT (float**& ga) * jip = &megapointer;
+
     funcptr : void (int a, bool b) heral;
 
     foo(foo); //error

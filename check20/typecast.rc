@@ -20,7 +20,7 @@ function : void test() {
 
     t = (int) 5.55;
     int[1] gg;
-    gg[t]; //error, 5
+    gg[t];
 
     (int) tod; //error, not supported
     tod = (funcptr : int ()) tiod; //error, not supported

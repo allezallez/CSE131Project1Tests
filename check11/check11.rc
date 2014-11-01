@@ -6,8 +6,8 @@ typedef float FLOAT;
 
 function : int & foo(int * i5) {
     INTFIVE x;
-    x = i5;
-    i5 = x; //error, i5 is an rvalue
+    x = i5; //error, x is not a mod lval
+    i5 = x;
     return 5; //error, not a mod lval
 }
 
@@ -15,8 +15,8 @@ INTFIVE i5;
 
 function : int foo2(INTFIVE i5) {
     INTFIVE x;
-    i5 = x;
-    x = i5;
+    i5 = x; //error, i5 is not a mod lval
+    x = i5; //error, x is not a mod lval
     return 5;
 }
 
@@ -37,11 +37,13 @@ function : void check() {
 
     INTFIVE x;
     x[0] = 1;
-    x[-1] = 1; //error, out of bounds
-    x[5] = 1; //error, out of bounds
+    x[-1] = 1; //error, -1 out of bounds
+    x[5] = 1; //error, 5 out of bounds
     x[+1] = 1;
     x[4] = 1;
-    x[+6] = 1; //error, out of bounds
+    x[+6] = 1; //error, 6 out of bounds
+    x[-0x1A]; //error, -26 out of bounds
+    x[+012]; //error, 10 out of bounds
 
     x[i] = 6;
     x[b] = 4; //error, index not int
@@ -86,9 +88,9 @@ function : void check() {
 
     const int cc = 1;
 
-    typedef float[10] ARR;
+    typedef int[10] ARR;
 
-    float[10] a;
+    int[10] a;
 
     ARR b2;
 
@@ -100,5 +102,5 @@ function : void check() {
 
     b2[b2[b2[b2[2] - cc] + cc] - 1] = c[1][9];
 
-    a[2] = d[0];
+    d[2] = a[0];
 }
