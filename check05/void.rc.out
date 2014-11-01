@@ -1,0 +1,28 @@
+Error, "tests/check05/void.rc": 
+  Initialization value of type void not assignable to constant/variable of type int.
+Error, "tests/check05/void.rc": 
+  Initialization value of type void not assignable to constant/variable of type float.
+Error, "tests/check05/void.rc": 
+  Initialization value of type void not assignable to constant/variable of type bool.
+Error, "tests/check05/void.rc": 
+  Value of type void not assignable to variable of type int.
+Error, "tests/check05/void.rc": 
+  Value of type void not assignable to variable of type float.
+Error, "tests/check05/void.rc": 
+  Value of type void not assignable to variable of type bool.
+Error, "tests/check05/void.rc": 
+  Left-hand operand is not assignable (not a modifiable L-value).
+Error, "tests/check05/void.rc": 
+  Incompatible type void to binary operator +, numeric expected.
+Error, "tests/check05/void.rc": 
+  Incompatible type void to binary operator <=, numeric expected.
+Error, "tests/check05/void.rc": 
+  Incompatible types to operator: void == void;
+  both must be numeric, or both equivalent to bool.
+Error, "tests/check05/void.rc": 
+  Incompatible type void to binary operator *, numeric expected.
+Error, "tests/check05/void.rc": 
+  Incompatible type void to unary operator !, equivalent to bool expected.
+Error, "tests/check05/void.rc": 
+  Incompatible type void to binary operator ||, equivalent to bool expected.
+Compile: failure.

@@ -31,4 +31,4 @@ function : float & hio() { return 111134; } //error, int not equiv to float
 function : float & asdfwwe() { float f; return f; }
 function : float & ajsdfwwe() { int f; return f; } //error, int not equiv to float
 function : bool & bbb() { return 124; } //error, int not equiv to bool
-function : bool & beb() { const bool b = 1; return b; } //error, not mod l
+function : bool & beb() { const bool b = true; return b; } //error, not mod l

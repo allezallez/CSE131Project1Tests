@@ -1,5 +1,5 @@
 function : int foo1(float x, bool y){
-}
+} // error, no return found
 
 function : void foo2(float x, bool y){
 }
@@ -10,7 +10,7 @@ function : int& foo3(int y) {
 }
 
 function : int& foo4(int x) {
-    return 3; //error?!?
+    return 3; //error, not a mod-lval
 }
 
 function : float ff5(int x) {
@@ -25,10 +25,6 @@ function : int missing() {
     if (true) {
         return 1;
     }
-    int[5] arr;
-    foreach(int x : arr) {
-        return 5;
-    }
     while (true) {
         return -5;
     }
@@ -41,15 +37,11 @@ function : bool block() {
             return true;
         }
     }
-}
+} //missing global return type error
 
 function : float fun() {
     if (true) {
         return 1.0;
-    }
-    int[1] arr;
-    foreach(int x : arr) {
-        return 2.0;
     }
     while(true) {
         return 3.0;
@@ -66,15 +58,9 @@ function : float fun() {
                     return true; //bad return
                 }
             }
-            foreach(int x : arr) {
-                return false; //bad return
-            }
         }
         while(true) {
             return +3.1415926;
         }
-    }
-    foreach(int x : arr) {
-        return -1.0;
     }
 } // still fail with no return

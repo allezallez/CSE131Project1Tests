@@ -1,43 +1,41 @@
-Error, "tests/check06/return.rc", line 2: 
+Error, "tests/check06/return.rc": 
   Return required in function, none found.
-Error, "tests/check06/return.rc", line 3: 
+Error, "tests/check06/return.rc": 
   Return required in function, none found.
-Error, "tests/check06/return.rc", line 4: 
+Error, "tests/check06/return.rc": 
   Return required in function, none found.
-Error, "tests/check06/return.rc", line 7: 
+Error, "tests/check06/return.rc": 
   Return in function requires a result expression, none found.
-Error, "tests/check06/return.rc", line 8: 
+Error, "tests/check06/return.rc": 
   Return in function requires a result expression, none found.
-Error, "tests/check06/return.rc", line 9: 
+Error, "tests/check06/return.rc": 
   Return in function requires a result expression, none found.
-Error, "tests/check06/return.rc", line 11: 
+Error, "tests/check06/return.rc": 
   Type of return expression (int), not assignment compatible with function's return type (void).
-Error, "tests/check06/return.rc", line 13: 
+Error, "tests/check06/return.rc": 
   Type of return expression (float), not assignment compatible with function's return type (int).
-Error, "tests/check06/return.rc", line 14: 
+Error, "tests/check06/return.rc": 
   Type of return expression (float), not assignment compatible with function's return type (int).
-Error, "tests/check06/return.rc", line 18: 
+Error, "tests/check06/return.rc": 
   Type of return expression (bool), not assignment compatible with function's return type (float).
-Error, "tests/check06/return.rc", line 19: 
+Error, "tests/check06/return.rc": 
   Type of return expression (int), not assignment compatible with function's return type (bool).
-Error, "tests/check06/return.rc", line 21: 
+Error, "tests/check06/return.rc": 
   Type of return expression (float), not assignment compatible with function's return type (bool).
-Error, "tests/check06/return.rc", line 24: 
+Error, "tests/check06/return.rc": 
   Return expression is not a modifiable L-value for function that returns by reference.
-Error, "tests/check06/return.rc", line 25: 
+Error, "tests/check06/return.rc": 
   Return expression is not a modifiable L-value for function that returns by reference.
-Error, "tests/check06/return.rc", line 26: 
+Error, "tests/check06/return.rc": 
   Return expression is not a modifiable L-value for function that returns by reference.
-Error, "tests/check06/return.rc", line 28: 
+Error, "tests/check06/return.rc": 
   Type of return expression (float) is not equivalent to the function's return type (int).
-Error, "tests/check06/return.rc", line 30: 
+Error, "tests/check06/return.rc": 
   Type of return expression (int) is not equivalent to the function's return type (float).
-Error, "tests/check06/return.rc", line 32: 
+Error, "tests/check06/return.rc": 
   Type of return expression (int) is not equivalent to the function's return type (float).
-Error, "tests/check06/return.rc", line 33: 
+Error, "tests/check06/return.rc": 
   Type of return expression (int) is not equivalent to the function's return type (bool).
-Error, "tests/check06/return.rc", line 34: 
-  Initialization value of type int not assignable to constant/variable of type bool.
-Error, "tests/check06/return.rc", line 34: 
+Error, "tests/check06/return.rc": 
   Return expression is not a modifiable L-value for function that returns by reference.
 Compile: failure.
