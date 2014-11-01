@@ -1,13 +1,5 @@
-Error, "tests/check18/funcptr.rc", line 35: 
-  redeclared identifier 'b'.
-Error, "tests/check18/funcptr.rc", line 36: 
-  redeclared identifier 'b'.
 Error, "tests/check18/funcptr.rc", line 36: 
   redeclared identifier 'jj'.
-Error, "tests/check18/funcptr.rc", line 37: 
-  redeclared identifier 'a'.
-Error, "tests/check18/funcptr.rc", line 40: 
-  redeclared identifier 'a'.
 Error, "tests/check18/funcptr.rc", line 42: 
   Argument of type funcptr : void (funcptr : void () far) not assignable to value parameter far, of type funcptr : void ().
 Error, "tests/check18/funcptr.rc", line 45: 

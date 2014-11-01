@@ -32,12 +32,12 @@ funcptr : int & (bool* & b, float** f, int & ga) badder;
 
 function : void te1(funcptr : int & (bool* & b, float** f, int ga) jj) {}
 
-function : void te23(funcptr : int & (bool* & b, float** b) jj) {} //error, redeclared id
-function : void tefgd(funcptr : int & (bool* & b, float** b) jj, bool jj) {} //error, redeclared id twice
-funcptr : void (int a, bool a) heral; //error, redeclared id
+function : void te23(funcptr : int & (bool* & a, float** b) jj) {}
+function : void tefgd(funcptr : int & (bool* & c, float** b) jj, bool jj) {}
+funcptr : void (int a, bool b) heral;
 
 function : void test() {
-    funcptr : void (int a, bool a) heral; //error, redeclared id
+    funcptr : void (int a, bool b) heral;
 
     foo(foo); //error
     foo(tar);

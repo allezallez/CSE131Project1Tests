@@ -20,10 +20,10 @@ function : void test() {
     ++f;
     f--;
     --f;
-    --nullptr; //error, incompatible
-    nullptr--; //error, incompatible
-    nullptr++; //error, incompatible
-    ++nullptr; //error, incompatible
+    --nullptr; //error, not mod l
+    nullptr--; //error, not mod l
+    nullptr++; //error, not mod l
+    ++nullptr; //error, not mod l
     fa++;
     ++fa;
     --fa;
