@@ -1,0 +1,78 @@
+structdef FOO {
+    function : bool & test(bool b) {
+        b = true;
+        {
+            b = false;
+            if (true) {
+                b = true;
+                while(false) {
+                    b = false;
+                    {
+                        {   
+                            {
+                                b = true;
+                                bool[2] arr;
+                                foreach (bool & b2 : arr) {
+                                    b2 = b;
+                                    b = b2;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        return b;
+    }
+
+    function : void test2(FOO * foo) {
+        foo->test(true) = true;
+        {
+            foo->test(true) = false;
+            if (true) {
+                foo->test(true) = true;
+                while(false) {
+                    foo->test(true) = false;
+                    {
+                        {   
+                            {
+                                foo->test(true) = true;
+                                bool[2] arr;
+                                foreach (bool & b2 : arr) {
+                                    b2 = foo->test(true);
+                                    foo->test(true) = b2;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+};
+
+structdef BAD {
+    int i;
+    float f;
+    function : void test(bool b) {
+        {
+            i = 2; //error, out of scope
+            b = false;
+        }
+    }
+    function : void test2(int i, bool f) {
+        i = 2;
+        {
+            i = 1;
+            while(true) {
+                this.f = true; //error, bool not assignable to float
+                f = true;
+                if (f) {
+                    i = 5;
+                    f = 2.0; //error, float not assignable to bool
+                    this.f = 2.0;
+                }
+            }
+        }
+    }
+};

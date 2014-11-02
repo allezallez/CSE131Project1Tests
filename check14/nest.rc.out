@@ -1,0 +1,7 @@
+Error, "tests/check14/nest.rc", line 59: 
+  undeclared identifier 'i'.
+Error, "tests/check14/nest.rc", line 68: 
+  Value of type bool not assignable to variable of type float.
+Error, "tests/check14/nest.rc", line 72: 
+  Value of type float not assignable to variable of type bool.
+Compile: failure.
