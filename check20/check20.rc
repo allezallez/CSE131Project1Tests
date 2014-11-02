@@ -1,4 +1,3 @@
-
 function : void foo() {
     int* fu;
     int bar;
@@ -7,9 +6,8 @@ function : void foo() {
 
     bar = (int)too;
     too = (bool)bar;
-    bar = (int)tar; 
+    bar = (int)tar;
 
-    bar = (float)nullptr; //error float -> int
     tar = (int)bar;
 }
 

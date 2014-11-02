@@ -1,5 +1,4 @@
 const float g = 1;
-int[(int)nullptr] ji; //error, must be > 0
 float[(bool)g] asdg; //error, index must be equiv to int
 float[(int)g] aaaa;
 const bool her = false;
@@ -27,9 +26,6 @@ function : void test() {
 
     t = (int) (float) (float) (int) g;
     (bool) (float) (int) t;
-
-    int[5] jim;
-    jim[(int)nullptr];
 
     //constant conversion
 
